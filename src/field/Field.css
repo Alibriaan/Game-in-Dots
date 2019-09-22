@@ -98,7 +98,7 @@
 .field-item-easyMode {
     background-color: #fff;
 
-    outline: 2px solid grey; /* Чёрная рамка */
+    outline: 2px solid grey; 
     display: block;
     width: calc(100% / 5);
     height: calc(100% / 5);
@@ -107,7 +107,7 @@
 .field-item-normalMode {
     background-color: #fff;
 
-    outline: 2px solid grey; /* Чёрная рамка */
+    outline: 2px solid grey; 
     width: calc(100% / 10);
     height: calc(100% / 10);
 }

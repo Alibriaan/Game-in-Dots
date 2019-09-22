@@ -7,7 +7,6 @@ import * as serviceWorker from './serviceWorker';
 
 import { HashRouter, Switch, Route } from 'react-router-dom'
 
-import Field from './field/Field'
 
 
 const Root = (
