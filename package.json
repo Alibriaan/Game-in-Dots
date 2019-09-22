@@ -1,11 +1,10 @@
 {
   "name": "cubiki",
   "version": "0.1.0",
-  "homepage": "https://Alibriaan.github.io/square-game/",
+  "homepage": "https://Alibriaan.github.io/Game-in-Dots",
   "private": true,
   "dependencies": {
     "axios": "^0.19.0",
-    "gh-pages": "^2.1.1",
     "mobx": "^5.13.0",
     "mobx-react": "^6.1.3",
     "moment": "^2.24.0",
@@ -36,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }

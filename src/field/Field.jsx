@@ -25,8 +25,8 @@ const Field = observer((props) => {
 
 
      useEffect( () => {
-            console.log("Pererender");
-            console.log("Player-"  + localStore.score.player + "   Computer-" + localStore.score.computer  );
+           // console.log("Pererender");
+          //  console.log("Player-"  + localStore.score.player + "   Computer-" + localStore.score.computer  );
             
             //let data = new Date();
 

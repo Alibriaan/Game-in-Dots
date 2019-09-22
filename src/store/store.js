@@ -9,7 +9,7 @@ class Store {
   {
      const fetchData = async () =>
     {
-        let requ = await axios.get('http://starnavi-frontend-test-task.herokuapp.com/game-settings');
+        let requ = await axios.get('https://starnavi-frontend-test-task.herokuapp.com/game-settings');
             this.mode = requ.data;
 
             for(let key in requ.data)
@@ -17,7 +17,7 @@ class Store {
                 this.gameClass.set(key , key);
             }
 
-            requ = await axios.get('http://starnavi-frontend-test-task.herokuapp.com/winners');
+            requ = await axios.get('https://starnavi-frontend-test-task.herokuapp.com/winners');
             this.leaderBoard = requ.data;
         }
         
@@ -96,7 +96,7 @@ changeMode = (event) => {
     {
           this.gameStatus = false;
 
-          fetch( 'http://starnavi-frontend-test-task.herokuapp.com/winners',
+          fetch( 'https://starnavi-frontend-test-task.herokuapp.com/winners',
           {
               method: "POST",
               headers: {
@@ -112,7 +112,7 @@ changeMode = (event) => {
                   this.gameStatus = false;
 
         
-                  fetch( 'http://starnavi-frontend-test-task.herokuapp.com/winners',
+                  fetch( 'https://starnavi-frontend-test-task.herokuapp.com/winners',
                     {
                         method: "POST",
                         headers: {
@@ -125,7 +125,7 @@ changeMode = (event) => {
       else if( +this.score.computer > +(this.currMode.data.field * this.currMode.data.field / 2))
       {
           this.gameStatus = false;
-          fetch( 'http://starnavi-frontend-test-task.herokuapp.com/winners',
+          fetch( 'https://starnavi-frontend-test-task.herokuapp.com/winners',
           {
               method: "POST",
               headers: {
