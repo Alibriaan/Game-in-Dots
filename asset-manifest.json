@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/square-game/static/css/main.af240bc4.chunk.css",
-    "main.js": "/square-game/static/js/main.01b96e85.chunk.js",
-    "main.js.map": "/square-game/static/js/main.01b96e85.chunk.js.map",
-    "runtime-main.js": "/square-game/static/js/runtime-main.538e1d06.js",
-    "runtime-main.js.map": "/square-game/static/js/runtime-main.538e1d06.js.map",
-    "static/js/2.b2839314.chunk.js": "/square-game/static/js/2.b2839314.chunk.js",
-    "static/js/2.b2839314.chunk.js.map": "/square-game/static/js/2.b2839314.chunk.js.map",
-    "index.html": "/square-game/index.html",
-    "precache-manifest.88fced6e69985c587be82bef4c21346f.js": "/square-game/precache-manifest.88fced6e69985c587be82bef4c21346f.js",
-    "service-worker.js": "/square-game/service-worker.js",
-    "static/css/main.af240bc4.chunk.css.map": "/square-game/static/css/main.af240bc4.chunk.css.map",
-    "static/media/logo.svg": "/square-game/static/media/logo.25bf045c.svg"
+    "main.css": "/Game-in-Dots/static/css/main.af240bc4.chunk.css",
+    "main.js": "/Game-in-Dots/static/js/main.236baefd.chunk.js",
+    "main.js.map": "/Game-in-Dots/static/js/main.236baefd.chunk.js.map",
+    "runtime-main.js": "/Game-in-Dots/static/js/runtime-main.8ba6d31c.js",
+    "runtime-main.js.map": "/Game-in-Dots/static/js/runtime-main.8ba6d31c.js.map",
+    "static/js/2.f9b12aec.chunk.js": "/Game-in-Dots/static/js/2.f9b12aec.chunk.js",
+    "static/js/2.f9b12aec.chunk.js.map": "/Game-in-Dots/static/js/2.f9b12aec.chunk.js.map",
+    "index.html": "/Game-in-Dots/index.html",
+    "precache-manifest.b4641500276ec0866b95d3d33deb6697.js": "/Game-in-Dots/precache-manifest.b4641500276ec0866b95d3d33deb6697.js",
+    "service-worker.js": "/Game-in-Dots/service-worker.js",
+    "static/css/main.af240bc4.chunk.css.map": "/Game-in-Dots/static/css/main.af240bc4.chunk.css.map",
+    "static/media/logo.svg": "/Game-in-Dots/static/media/logo.25bf045c.svg"
   }
 }
